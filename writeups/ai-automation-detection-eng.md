@@ -213,7 +213,7 @@ Every single event the rule previously caught from that account is now silently 
 ---
 
 <p align="center">
-  <a href="https://github.com/AnimSparrow">
+  <a href="https://github.com/AnimSparrow/thm-writeups">
     <img src="../assets/more_writeups.svg" width="360" alt="More writeups on GitHub">
   </a>
 </p>
