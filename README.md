@@ -18,6 +18,7 @@ synthwave-terminal style. Each writeup leads with the *why*, not just the comman
 | Room / Challenge | Category | Difficulty | Writeup |
 |---|---|---|---|
 | AI & Automation in Detection Engineering | Detection Engineering | Medium | [→ read](writeups/ai-automation-detection-eng.md) |
+| DetectMare | Detection Engineering | Hard | [→ read](writeups/detectmare.md) |
 
 <!-- Add new rows above. One .md per room in writeups/, banner in assets/banners/. -->
 
