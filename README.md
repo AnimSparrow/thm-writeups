@@ -10,7 +10,7 @@
 
 ---
 
-My TryHackMe room & challenge writeups — solved, documented, and skinned in a consistent
+My TryHackMe room & challenge writeups - solved, documented, and skinned in a consistent
 synthwave-terminal style. Each writeup leads with the *why*, not just the commands.
 
 ## Writeups
