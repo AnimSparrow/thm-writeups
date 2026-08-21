@@ -4,14 +4,14 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/TRYHACKME-1a0633?style=for-the-badge&labelColor=FF2A6D">
-  <img src="https://img.shields.io/badge/MEDIUM-1a0633?style=for-the-badge&labelColor=00F0FF">
+  <img src="https://img.shields.io/badge/HARD-1a0633?style=for-the-badge&labelColor=00F0FF">
   <img src="https://img.shields.io/badge/DETECTION_ENGINEERING-1a0633?style=for-the-badge&labelColor=A479C4">
   <img src="https://img.shields.io/badge/BLUE_TEAM-1a0633?style=for-the-badge&labelColor=A479C4">
 </p>
 
 - **Room:** [DetectMare](https://tryhackme.com/room/detectmare)
 - **Category:** Detection Engineering / Blue Team
-- **Difficulty:** Medium
+- **Difficulty:** Hard
 - **Key skills:** Detection-as-Code, Sigma rule tuning, SPL threat hunting, false-positive suppression, bypass-resistant detection logic
 
 ---
