@@ -1,9 +1,13 @@
-[![DetectMare](https://github.com/AnimSparrow/thm-writeups/raw/main/assets/banners/detectmare.svg)](/AnimSparrow/thm-writeups/blob/main/assets/banners/detectmare.svg)
+<p align="center">
+  <img src="../assets/banners/detectmare.svg" width="820" alt="DetectMare">
+</p>
 
-[![](https://img.shields.io/badge/TRYHACKME-1a0633?style=for-the-badge&labelColor=FF2A6D)](https://tryhackme.com/room/detectmare)
-[![](https://img.shields.io/badge/MEDIUM-1a0633?style=for-the-badge&labelColor=00F0FF)](#)
-[![](https://img.shields.io/badge/DETECTION_ENGINEERING-1a0633?style=for-the-badge&labelColor=A479C4)](#)
-[![](https://img.shields.io/badge/BLUE_TEAM-1a0633?style=for-the-badge&labelColor=A479C4)](#)
+<p align="center">
+  <img src="https://img.shields.io/badge/TRYHACKME-1a0633?style=for-the-badge&labelColor=FF2A6D">
+  <img src="https://img.shields.io/badge/MEDIUM-1a0633?style=for-the-badge&labelColor=00F0FF">
+  <img src="https://img.shields.io/badge/DETECTION_ENGINEERING-1a0633?style=for-the-badge&labelColor=A479C4">
+  <img src="https://img.shields.io/badge/BLUE_TEAM-1a0633?style=for-the-badge&labelColor=A479C4">
+</p>
 
 - **Room:** [DetectMare](https://tryhackme.com/room/detectmare)
 - **Category:** Detection Engineering / Blue Team
@@ -24,7 +28,7 @@ The environment ships two interfaces: a **Splunk** instance (`index="dac_lab"`, 
 The attacker's path, from `threat-intel/incident_report.md`:
 
 | # | Kill-chain phase | Technique | PR |
-| --- | --- | --- | --- |
+|---|---|---|---|
 | 1 | Initial Access | T1566.001 Spearphishing Attachment | PR #1 |
 | 2 | Execution | T1218 Signed Binary Proxy Execution | PR #2 |
 | 3 | Credential Access | T1003.001 LSASS Memory | PR #3 |
@@ -154,7 +158,7 @@ Result: `EV 100% · TP 1 · FP 0 · Red Team 5/5`.
 > **Never exclude on an attribute the attacker controls.** A filename and its own command-line arguments are fully attacker-forgeable. Anchor exclusions to something they can't fake: a trusted parent process, a signed binary, a path they can't write to. The `name → path → parent` progression here is the single most transferable lesson in the room.
 
 | Question | Answer |
-| --- | --- |
+|---|---|
 | Doc file opened by the infected user | `Hypersonic_Test_Schedule_2025.docm` |
 | PR #1 flag | `THM{OfFicE_***********}` |
 
@@ -222,7 +226,7 @@ detection:
 Result: `EV 100% · TP 1 · FP 0 · Red Team 5/5`.
 
 | Question | Answer |
-| --- | --- |
+|---|---|
 | Internal tool that may cause false positives in PR #2 | `researchdeploy.exe` |
 | PR #2 flag | `THM{sIgNeD_***********}` |
 
@@ -291,7 +295,7 @@ detection:
 Result: `EV 100% · TP 1 · FP 0 · Red Team 4/4`.
 
 | Question | Answer |
-| --- | --- |
+|---|---|
 | Username that executed the LSASS dump | `m.okafor` |
 | PR #3 flag | `THM{DuMpInG_***********}` |
 
@@ -378,7 +382,7 @@ Result: `EV 100% · TP 2 · FP 0 · Red Team 5/5`.
 > **Detect the whole technique, not one artefact.** PtH is logon *plus* payload execution. Scoring 50% is the pipeline telling you the answer key sees a second event you don't. And exclude legit service installs by **trusted path**, not by "it mentions PowerShell" - `PatchDeployAgent` proves benign automation can look identical to the attack at the keyword level.
 
 | Question | Answer |
-| --- | --- |
+|---|---|
 | Pass-the-hash authentication time | `03/11/2025 10:40:00.000 AM` |
 | PR #4 flag | `THM{PaSs_***********}` |
 
@@ -443,7 +447,7 @@ Result: `EV 100% · Red Team 5/5`.
 > **Detect behaviour, not binaries.** Any rule keyed to a specific executable name dies to `copy 7z.exe svchost.exe`. Match the *action* (archive syntax against classified extensions) in the command line - that's the thing the attacker can't rename away.
 
 | Question | Answer |
-| --- | --- |
+|---|---|
 | Folder to stage a malicious binary as a backup routine | `D:\Backups\nightly` |
 | PR #5 flag | `THM{ArChIvE_***********}` |
 
@@ -452,7 +456,7 @@ Result: `EV 100% · Red Team 5/5`.
 ## Loot
 
 | | |
-| --- | --- |
+|---|---|
 | 🩸 PR #1 - Spearphishing | `THM{OfFicE_***********}` |
 | ⚙️ PR #2 - Signed Binary Proxy Exec | `THM{sIgNeD_***********}` |
 | 🔑 PR #3 - LSASS Dump | `THM{DuMpInG_***********}` |
@@ -472,4 +476,8 @@ Result: `EV 100% · Red Team 5/5`.
 
 ---
 
-[![More writeups on GitHub](https://github.com/AnimSparrow/thm-writeups/raw/main/assets/more_writeups.svg)](https://github.com/AnimSparrow/thm-writeups)
+<p align="center">
+  <a href="https://github.com/AnimSparrow/thm-writeups">
+    <img src="../assets/more_writeups.svg" width="360" alt="More writeups on GitHub">
+  </a>
+</p>
