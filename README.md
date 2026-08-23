@@ -1,4 +1,4 @@
-[![THM Writeups — AnimSparrow](https://github.com/AnimSparrow/thm-writeups/raw/main/assets/hero-banner.svg)](/AnimSparrow/thm-writeups/blob/main/assets/hero-banner.svg)
+[![THM Writeups - AnimSparrow](https://github.com/AnimSparrow/thm-writeups/raw/main/assets/hero-banner.svg)](/AnimSparrow/thm-writeups/blob/main/assets/hero-banner.svg)
 
 <p align="center">
   <img src="https://img.shields.io/badge/PLATFORM-TryHackMe-1a0633?style=for-the-badge&labelColor=FF2A6D">
@@ -8,11 +8,11 @@
 
 ---
 
-My TryHackMe room & challenge writeups — solved, documented, and skinned in a consistent
+My TryHackMe room & challenge writeups - solved, documented, and skinned in a consistent
 synthwave-terminal style. Each writeup leads with the *why*, not just the commands.
 
 > [!NOTE]
-> Answer values and flags are **masked** in every writeup — enough to prove the work, never enough to spoil an active room. The methodology is complete; the literal strings are one solve away.
+> Answer values and flags are **masked** in every writeup - enough to prove the work, never enough to spoil an active room. The methodology is complete; the literal strings are one solve away.
 
 ## Writeups
 
