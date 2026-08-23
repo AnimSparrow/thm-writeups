@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="assets/hero-banner.svg" width="820" alt="THM Writeups — AnimSparrow">
-</p>
+[![THM Writeups — AnimSparrow](https://github.com/AnimSparrow/thm-writeups/raw/main/assets/hero-banner.svg)](/AnimSparrow/thm-writeups/blob/main/assets/hero-banner.svg)
 
 <p align="center">
   <img src="https://img.shields.io/badge/PLATFORM-TryHackMe-1a0633?style=for-the-badge&labelColor=FF2A6D">
@@ -10,36 +8,38 @@
 
 ---
 
-My TryHackMe room & challenge writeups - solved, documented, and skinned in a consistent
+My TryHackMe room & challenge writeups — solved, documented, and skinned in a consistent
 synthwave-terminal style. Each writeup leads with the *why*, not just the commands.
+
+> [!NOTE]
+> Answer values and flags are **masked** in every writeup — enough to prove the work, never enough to spoil an active room. The methodology is complete; the literal strings are one solve away.
 
 ## Writeups
 
-| Room / Challenge | Category | Difficulty | Writeup |
-|---|---|---|---|
-| AI & Automation in Detection Engineering | Detection Engineering | Medium | [→ read](writeups/ai-automation-detection-eng.md) |
-| DetectMare | Detection Engineering | Hard | [→ read](writeups/detectmare.md) |
-
-<!-- Add new rows above. One .md per room in writeups/, banner in assets/banners/. -->
+| Room / Challenge                         | Category                  | Difficulty | Writeup                                                                                                 |
+| ---------------------------------------- | ------------------------- | ---------- | ------------------------------------------------------------------------------------------------------- |
+| The Vantara Leak                         | DFIR / Endpoint Forensics | Medium     | [→ read](https://github.com/AnimSparrow/thm-writeups/blob/main/writeups/the-vantara-leak.md)            |
+| DetectMare                               | Detection Engineering     | Hard       | [→ read](https://github.com/AnimSparrow/thm-writeups/blob/main/writeups/detectmare.md)                  |
+| AI & Automation in Detection Engineering | Detection Engineering     | Medium     | [→ read](https://github.com/AnimSparrow/thm-writeups/blob/main/writeups/ai-automation-detection-eng.md) |
 
 ## Repo structure
 
 ```
 thm-writeups/
-├── README.md                     # this index
+├── README.md                             # this index
 ├── assets/
-│   ├── hero-banner.svg           # repo hero
-│   ├── more_writeups.svg         # footer button
-│   └── banners/                  # one title banner per writeup
+│   ├── hero-banner.svg                    # repo hero
+│   ├── more_writeups.svg                  # footer button
+│   └── banners/                           # one title banner per writeup
+│       ├── the-vantara-leak.svg
+│       ├── detectmare.svg
 │       └── ai-automation-detection-eng.svg
-└── writeups/                     # one markdown writeup per room
+└── writeups/                              # one markdown writeup per room
+    ├── the-vantara-leak.md
+    ├── detectmare.md
     └── ai-automation-detection-eng.md
 ```
 
 ---
 
-<p align="center">
-  <a href="https://github.com/AnimSparrow">
-    <img src="assets/more_writeups.svg" width="360" alt="More on GitHub">
-  </a>
-</p>
+[![More on GitHub](https://github.com/AnimSparrow/thm-writeups/raw/main/assets/more_writeups.svg)](https://github.com/AnimSparrow)
