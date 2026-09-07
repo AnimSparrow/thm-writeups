@@ -7,6 +7,7 @@ synthwave-terminal style. Each writeup leads with the *why*, not just the comman
 ## Writeups
 | Room / Challenge                         | Category                  | Difficulty | Writeup                                                                                                 |
 | ---------------------------------------- | ------------------------- | ---------- | ------------------------------------------------------------------------------------------------------- |
+| Trusted By Default                       | SOC / SIEM Investigation  | Medium     | [→ read](https://github.com/AnimSparrow/thm-writeups/blob/main/writeups/trusted-by-default.md)          |
 | The Vantara Leak                         | DFIR / Endpoint Forensics | Medium     | [→ read](https://github.com/AnimSparrow/thm-writeups/blob/main/writeups/the-vantara-leak.md)            |
 | DetectMare                               | Detection Engineering     | Hard       | [→ read](https://github.com/AnimSparrow/thm-writeups/blob/main/writeups/detectmare.md)                  |
 | AI & Automation in Detection Engineering | Detection Engineering     | Medium     | [→ read](https://github.com/AnimSparrow/thm-writeups/blob/main/writeups/ai-automation-detection-eng.md) |
@@ -19,11 +20,13 @@ thm-writeups/
 │   ├── hero-banner.svg                    # repo hero
 │   ├── more_writeups.svg                  # footer button
 │   └── banners/                           # one title banner per writeup
+│       ├── trusted-by-default.svg
 │       ├── the-vantara-leak.svg
 │       ├── detectmare.svg
 │       ├── ai-automation-detection-eng.svg
 │       └── frankesqwen.svg
 └── writeups/                              # one markdown writeup per room
+    ├── trusted-by-default.md
     ├── the-vantara-leak.md
     ├── detectmare.md
     ├── ai-automation-detection-eng.md
