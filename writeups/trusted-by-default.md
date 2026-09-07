@@ -208,8 +208,7 @@ seconds after landing — the staging/exfiltration objective the briefing warned
 
 ## Answer key
 
-<details>
-<summary>Spoiler — Task 2 answers (try it yourself first)</summary>
+<summary>Spoiler - Task 2 answers (try it yourself first)</summary>
 
 | # | Question | Answer |
 |---|---|---|
@@ -223,8 +222,6 @@ seconds after landing — the staging/exfiltration objective the briefing warned
 | 8 | Remote-interactive LogonType number | `10` |
 | 9 | Destination IP of the sustained RDP | `10.81.112.251` |
 | 10 | `resp_bytes` of that connection | `181717` |
-
-</details>
 
 ## Lessons learned
 
