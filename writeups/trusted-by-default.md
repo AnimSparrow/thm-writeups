@@ -241,7 +241,7 @@ seconds after landing — the staging/exfiltration objective the briefing warned
 ---
 
 <p align="center">
-  <a href="https://tryhackme.com/room/trustedbydefault">
+  <a href="https://github.com/AnimSparrow/thm-writeups/blob/main/README.md">
     <img src="https://img.shields.io/badge/MORE_WRITEUPS_%E2%86%92-1a0633?style=for-the-badge&labelColor=00F0FF">
   </a>
 </p>
